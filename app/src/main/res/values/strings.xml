@@ -1,0 +1,341 @@
+<resources>
+    <string name="app_name">Nibo</string>
+
+    <!-- Strings related to login -->
+    <string name="saved_locations">Saved Locations</string>
+    <string name="find_person">Find Nibo Code</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_edit_profile">Edit</string>
+    <string name="action_find_person">Find Nibo Code</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_sign_in">Login Failed. Please try again</string>
+    <string name="error_user_not_found">It seems this user is not registered in our database. Please try again</string>
+    <string name="error_no_connection">No Connection. Please check your network settings</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="valid_number">Please input a valid phone number or unique code</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_fullname">Fullname</string>
+    <string name="prompt_descriptiveAddress">Please fill in a very descriptive permanent address with close landmarks if possible</string>
+    <string name="prompt_phoneno">Nibo Code</string>
+    <string name="prompt_phonenoo">Phone Number</string>
+    <string name="action_check_in">Click here to get your location</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="nibo_text">Nibo</string>
+    <string name="welcome_to_nibo">Welcome to Nibo</string>
+
+    <string name="slide4_text">Looking for a place? Why not search using the Nibo Code.</string>
+    <string name="slide2_text">Share your Nibo Code with friends and family to easily and exactly locate you.</string>
+    <string name="slide1_text">The best and easiest geo-addressing sytem.</string>
+    <string name="slide3_text">Get a Nibo Code for Your House.</string>
+
+    <string name="nibo_code_instructions">Getting a Permanent Nibo Code for your Home is very easy. All you have to do is touch the gate of your building on the map that will be shown and generate a Nibo Code for your Home. Very Simple.</string>
+
+
+    <string name="share_nibo_code">Share Your Nibo Code</string>
+
+
+    <string name="save_location">House Nibo Code</string>
+
+
+    <string-array name="action_options">
+        <item>Share My Current Location</item>
+        <item>Save My Current Location</item>
+        <item>Set Meeting Location</item>
+        <item>Get Current Location Nibo Code</item>
+        <item>Scan Nibo QR Code</item>
+    </string-array>
+
+    <string-array name="action_options_nibo_code">
+        <item>Navigate</item>
+        <item>Share This Location</item>
+        <item>Save This Location</item>
+
+    </string-array>
+
+    <string-array name="action_options_method">
+        <item>Share Current Location Nibo Code</item>
+        <item>Share House Nibo Code</item>
+        <item>Share Google Map Link</item>
+    </string-array>
+
+    <string-array name="action_location_options">
+        <item>Open In Maps</item>
+    </string-array>
+
+
+    <string-array name="sql_action_options">
+        <item>Open In Map</item>
+        <item>Navigate</item>
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Share My Location</item>
+    </string-array>
+    <string name="title_activity_main">Nibo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_feedback">Feedback</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_forgot_password_actvity">Forgot Password</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_save">Save Contact</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a QR Code inside the Nibo Scanner to scan.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="search_nibo_code">Search Nibo Code...</string>
+    <string name="filter_view_http_nibo">Open Nibo Code...</string>
+
+
+
+    <string-array name="building_type">
+        <item>Please Choose Building Type</item>
+        <item>Residential Building</item>
+        <item>Commercial Building</item>
+        <item>Educational Building</item>
+        <item>Industrial Building</item>
+        <item>Government Building</item>
+        <item>Religious Building</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="states">
+        <item>PLEASE SELECT YOUR STATE</item>
+        <item>Abia State</item>
+        <item>Adamawa State</item>
+        <item>Akwa Ibom State</item>
+        <item>Anambra State</item>
+        <item>Bauchi State</item>
+        <item>Bayelsa State</item>
+        <item>Benue State</item>
+        <item>Borno State</item>
+        <item>Cross River State</item>
+        <item>Delta State</item>
+        <item>Ebonyi State</item>
+        <item>Edo State</item>
+        <item>Ekiti State</item>
+        <item>Enugu State</item>
+        <item>FCT</item>
+        <item>Federal Capital Territory</item>
+        <item>Gombe State</item>
+        <item>Imo State</item>
+        <item>Jigawa State</item>
+        <item>Kaduna State</item>
+        <item>Kano State</item>
+        <item>Katsina State</item>
+        <item>Kebbi State</item>
+        <item>Kogi State</item>
+        <item>Kwara State</item>
+        <item>Lagos State</item>
+        <item>Nasarawa State</item>
+        <item>Niger State</item>
+        <item>Ogun State</item>
+        <item>Ondo State</item>
+        <item>Osun State</item>
+        <item>Oyo State</item>
+        <item>Plateau State</item>
+        <item>Rivers State</item>
+        <item>Sokoto State</item>
+        <item>Taraba State</item>
+        <item>Yobe State</item>
+        <item>Zamfara State</item>
+    </string-array>
+</resources>

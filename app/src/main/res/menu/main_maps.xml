@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/saved_locations"
+        android:orderInCategory="100"
+        android:title="@string/saved_locations"/>
+
+    <item
+        android:id="@+id/find_person"
+        android:orderInCategory="200"
+        android:title="@string/find_person"/>
+
+
+</menu>

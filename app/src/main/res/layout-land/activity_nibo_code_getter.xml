@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingTop="40dp"
+tools:context="com.nigeria.locateme.locateme.activities.NiboCodeGetterActivity">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#0aae0a"
+    android:text="House Information"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="30dp"
+    />
+
+
+<AutoCompleteTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTextState"
+    android:hint="State"
+    android:layout_marginBottom="9dp" />
+
+<AutoCompleteTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTextLGA"
+    android:hint="Local Government"
+    android:layout_marginBottom="9dp" />
+
+<AutoCompleteTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/editTextStreetName"
+    android:hint="Street Name"
+    android:layout_marginBottom="9dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextHouseAddress"
+        android:hint="Full House Address"
+        android:layout_marginBottom="9dp" />
+
+
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:id="@+id/button_saveNewBuilding"
+    android:layout_marginBottom="9dp"
+    android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+

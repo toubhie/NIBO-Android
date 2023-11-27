@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_a">
+        <item
+            android:id="@+id/nav_saved_locations"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Saved Locations" />
+        <item
+            android:id="@+id/nav_search_nibo_code"
+            android:icon="@drawable/places_ic_search"
+            android:title="Search Nibo Code" />
+        <item
+            android:id="@+id/nav_get_nibo_code"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Get A House Nibo Code" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/menu_b">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share My Location" />
+            <item
+                android:id="@+id/nav_checkin"
+                android:icon="@android:drawable/ic_menu_mylocation"
+                android:title="Get Current Nibo Code" />
+            <item
+                android:id="@+id/nav_save"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="Save My Location" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_c">
+            <item
+            android:id="@+id/nav_scan_qr"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Scan Nibo QR" />
+            <item
+            android:id="@+id/nav_feedback"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Feedback" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_setting_light"
+                android:title="Settings" />
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_d">
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="Rate 'Nibo' " />
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="About" />
+    </group>
+
+
+
+
+
+</menu>

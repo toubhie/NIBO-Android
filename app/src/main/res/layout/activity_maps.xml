@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.nigeria.locateme.locateme.activities.MapsActivity" />
+
+    <Button
+        android:id="@+id/buttonSwitch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_menu_mapmode"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        >
+
+
+
+
+        <Button
+            android:id="@+id/navButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0d7318"
+            android:text="NAVIGATE TO PLACE"
+            android:textColor="#fff"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#fff"
+            android:layout_below="@+id/navButton"
+            />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0d7318"
+            android:text="MORE OPTIONS"
+            android:textColor="#fff"
+            android:layout_below="@+id/view"/>
+
+        <Button
+            android:id="@+id/shareButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0d7318"
+            android:text="MORE OPTIONS"
+            android:textColor="#fff"
+            android:layout_below="@+id/view"/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
+
